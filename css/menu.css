@@ -1,0 +1,33 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 6 px;
+    font-family: verdana;
+    background-color:white;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.logo img {
+	max-height: 95px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin: 0 10px;
+    color: black;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-size: 20px;
+}
+nav a:hover{
+color:green;
+}

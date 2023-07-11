@@ -1,0 +1,18 @@
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+  }
+  
+  .social-media img {
+    width: 15px;
+    height: 15px;
+  }

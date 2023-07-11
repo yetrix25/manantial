@@ -1,0 +1,28 @@
+.centered-animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centered-animation img {
+    max-width: 200%;
+    height: auto;
+    animation: imageAnimation 5s infinite;
+  }
+  
+  @keyframes imageAnimation {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
